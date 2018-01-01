@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sl.mytitle.MyTitle">
+
+    <com.sl.mytitle.MyTitle
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:titleBackground="#968be1"
+        custom:titleHeight="50dp"
+        custom:text="title"
+        custom:textColor="#5ff2e8"
+        custom:textSize="18sp" />
+
+</android.support.constraint.ConstraintLayout>
